@@ -1,0 +1,8 @@
+def count_sheeps(sheep):
+    total = 0
+
+    for present in sheep:
+        if present is True:
+            total += 1
+
+    return total
