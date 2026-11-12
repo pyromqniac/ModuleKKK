@@ -1,0 +1,7 @@
+def minimum(arr):
+    a = min(arr)
+    return a
+
+def maximum(arr):
+    t = max(arr)
+    return t
