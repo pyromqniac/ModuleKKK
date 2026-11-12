@@ -1,0 +1,3 @@
+def double_integer(i):
+    result = i * 2
+    return result
