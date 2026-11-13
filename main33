@@ -1,0 +1,5 @@
+def lovefunc( flower1, flower2 ):
+    ostatok1 = flower1 % 2
+    ostatok2 = flower2 % 2
+
+    return ostatok1 != ostatok2 # yavlyaetsa li ostatki raznymi? "!=" eto vopros a ne fakt prikin'
