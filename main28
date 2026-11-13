@@ -1,0 +1,8 @@
+def number(bus_stops):
+    result = 0
+    
+    for pait in bus_stops:
+        durachki = pait[0]
+        debily = pait[1]
+        result = result + durachki - debily
+    return result
